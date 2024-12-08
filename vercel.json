@@ -1,0 +1,11 @@
+{
+
+    "rewrites": [
+        { "source": "/widget", "destination": "/public/widget.html" },
+        { "source": "/server/(.*)", "destination": "/server/index.js" }
+    ],
+
+    "static": {
+        "outputDirectory": "app"
+    }
+}
